@@ -28,3 +28,12 @@
 2025-08-23 22:46:11 [ERROR] ChromaDB not found. Please run db_utils.py to load data first.
 2025-08-23 22:47:59 [ERROR] ChromaDB not found. Please run db_utils.py to load data first.
 2025-08-23 22:48:26 [INFO] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-08-24 13:05:31 [INFO] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-08-24 13:05:46 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 13:05:53 [INFO] Use pytorch device_name: cpu
+2025-08-24 13:06:07 [INFO] Embedings created in memory
+2025-08-24 13:06:07 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 13:06:10 [INFO] Use pytorch device_name: cpu
+2025-08-24 13:08:33 [INFO] Embedings created in memory
+2025-08-24 13:08:33 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 13:08:38 [INFO] Use pytorch device_name: cpu

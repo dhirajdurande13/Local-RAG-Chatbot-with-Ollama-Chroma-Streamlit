@@ -1,7 +1,7 @@
 import streamlit as st
 from qa_utils import run_query
 st.set_page_config(page_title="Restaurent QA Assistant", layout="centered")
-
+from without_db_utils import run_query_without_db
 
 def main():
     st.title("Ask QUE About Restaurent(Review)")
@@ -10,7 +10,7 @@ def main():
         if query.strip():
             with st.spinner("Fetching answer..."):
                 try:
-                    answer = run_query(query)
+                    answer = run_query_without_db(query)
                     st.success(answer)
                 except Exception as e:
                     st.error(f"Something went wrong: {e}")
